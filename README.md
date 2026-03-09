@@ -19,6 +19,7 @@ A professional-grade, multi-layered automation framework designed for **End-to-E
 *   **Database**: JDBC (Backend data integrity verification)
 
 ## 📁 Project Structure
+```
 src/test
  ├── java
  │   ├── framework           # Core driver & base logic
@@ -36,7 +37,7 @@ src/test
  └── resources
      ├── data.properties     # Environment configuration
      └── testng.xml          # Test suite execution path
-
+```
 
 ##  Execution
 1.  **Clone the Repository**:
