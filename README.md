@@ -51,10 +51,11 @@ src/test
     mvn clean test -Denv=qa
     ```
 📊 Featured Scenarios
-Predictive Analytics Sync: Automated cross-referencing of revenue data between dashboard summaries and granular detail views.
-Network Connection Sync: Verifying real-time connection counts across multiple navigation modules.
-Secure API Auth: Retrieving session tokens via REST and injecting them into authorized requests.
-E2E Registration: Validating complex multi-step user onboarding workflows.
+* Predictive Analytics Sync: Automated cross-referencing of revenue data between dashboard summaries and granular detail views.
+* Network Connection Sync: Verifying real-time connection counts across multiple navigation modules.
+* Secure API Auth: Retrieving session tokens via REST and injecting them into authorized requests.
+* E2E Registration: Validating complex multi-step user onboarding workflows.
+
 Hardik Shah
 Automation Engineer | Specialist in Scalable QA Frameworks
 GitHub Profile
