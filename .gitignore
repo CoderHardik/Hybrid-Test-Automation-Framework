@@ -1,0 +1,20 @@
+# Build artifacts
+target/
+test-output/
+
+# Binaries - DO NOT UPLOAD THESE
+resources/ChromeWebDriver/
+
+# Logs
+Logs/
+*.log
+
+# IDE files
+.classpath
+.project
+.settings/
+.DS_Store
+
+# Java compiled files
+*.class
+

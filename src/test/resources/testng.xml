@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Automation Suite" parallel="methods" thread-count="3">
+
+    <test name="API and UI Functional Tests">
+
+        <groups>
+            <run>
+                <exclude name="api"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="api_test.PipelineApiTest"/>
+            <class name="api_test.GetnetworkFeedTest"/>
+            <class name="test.ForecastDisplayTest"/>
+            <class name="test.DashboardDataConsistencyTest"/>
+            <class name="registration_test.RegistrationTest"/>
+        </classes>
+
+    </test>
+
+</suite>
